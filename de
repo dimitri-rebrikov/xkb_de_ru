@@ -605,8 +605,7 @@ xkb_symbols "ru" {
     key <LatG> { [      Cyrillic_ghe,      Cyrillic_GHE ] };
     key <LatD> { [       Cyrillic_de,       Cyrillic_DE ] };
     key <LatE> { [       Cyrillic_ie,       Cyrillic_IE ] };
-    key <TLDE> { [       Cyrillic_io,       Cyrillic_IO, asciitilde ] };
-    key <LatX> { [      Cyrillic_zhe,      Cyrillic_ZHE ] };
+    key <LatX> { [      Cyrillic_ha,      Cyrillic_HA ] };
     key <LatZ> { [       Cyrillic_ze,       Cyrillic_ZE ] };
     key <LatI> { [        Cyrillic_i,        Cyrillic_I ] };
     key <LatJ> { [   Cyrillic_shorti,   Cyrillic_SHORTI ] };
@@ -621,17 +620,18 @@ xkb_symbols "ru" {
     key <LatT> { [       Cyrillic_te,       Cyrillic_TE ] };
     key <LatU> { [        Cyrillic_u,        Cyrillic_U ] };
     key <LatF> { [       Cyrillic_ef,       Cyrillic_EF ] };
-    key <LatH> { [       Cyrillic_ha,       Cyrillic_HA ] };
+    key <LatH> { [      Cyrillic_che,      Cyrillic_CHE  ] };
     key <LatC> { [      Cyrillic_tse,      Cyrillic_TSE ] };
-    key <AC10> { [      Cyrillic_che,      Cyrillic_CHE ] };
-    key <AD11> { [      Cyrillic_sha,      Cyrillic_SHA ] };
-    key <AD12> { [    Cyrillic_shcha,    Cyrillic_SHCHA, plus, asterisk ] };
+    key <AD11> { [      Cyrillic_yu,       Cyrillic_YU ] };
+    key <AD12> { [    Cyrillic_sha,    Cyrillic_SHA, plus, asterisk ] };
+    key <AE11> { [ Cyrillic_softsign, question ] };
     key <AE12> { [ Cyrillic_hardsign, Cyrillic_HARDSIGN ] };
     key <LatY> { [     Cyrillic_yeru,     Cyrillic_YERU ] };
-    key <LatV> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN ] };
+    key <LatV> { [ Cyrillic_zhe,       Cyrillic_ZHE  ] };
     key <AC11> { [        Cyrillic_e,        Cyrillic_E ] };
-    key <BKSL> { [       Cyrillic_yu,       Cyrillic_YU, numbersign, apostrophe ] };
+    key <BKSL> { [    Cyrillic_shcha,    Cyrillic_SHCHA, numbersign ] };
     key <LatQ> { [       Cyrillic_ya,       Cyrillic_YA ] };
+    key <AC10> { [    Cyrillic_io,       Cyrillic_IO ] };
 
     include "level3(ralt_switch)"
 };
