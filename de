@@ -632,6 +632,8 @@ xkb_symbols "ru" {
     key <BKSL> { [    Cyrillic_shcha,    Cyrillic_SHCHA, numbersign ] };
     key <LatQ> { [       Cyrillic_ya,       Cyrillic_YA ] };
     key <AC10> { [    Cyrillic_io,       Cyrillic_IO ] };
+    key <AE04>	{ [         4,     Cyrillic_hardsign ]	};
+
 
     include "level3(ralt_switch)"
 };
